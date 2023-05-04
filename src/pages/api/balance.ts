@@ -12,7 +12,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         const balanceEth = web3.utils.fromWei(balanceWei, 'ether')
         res.status(200).json({ balance: balanceEth })
     } catch (error) {
-        res.status(400).json({ error: 'Invalid Ethreu, Address' })
+        res.status(400).json({ error: 'Invalid Ethereum, Address' })
 
     }
 }
