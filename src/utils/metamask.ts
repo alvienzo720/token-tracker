@@ -11,3 +11,4 @@ export const getMetamaskProvider = async () => {
     }
     return provider
 }
+

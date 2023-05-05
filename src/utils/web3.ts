@@ -1,6 +1,6 @@
 import Web3 from 'web3'
 export const getWeb3 = () => {
-    const provider = new Web3.providers.HttpProvider('https://l1-conduit-opstack-demo-nhl9xsg0wg.t.conduit.xyz')
+    const provider = new Web3.providers.HttpProvider('https://sepolia.infura.io/v3/ec84c9b967de4010b5ace262fa78bb6e')
     const web3 = new Web3(provider)
     return web3
 }
